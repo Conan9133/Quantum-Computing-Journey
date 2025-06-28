@@ -15,3 +15,6 @@ This is a personal learning repository where I document my progress in quantum c
 - Qiskit
 - Python 3.x
 - JupyterLab
+
+## 📚 Acknowledgments
+Some notebooks in this repository are inspired by and adapted from the official [Qiskit tutorials](https://qiskit.org/documentation/tutorials/) provided by IBM Quantum under the Apache 2.0 License.
