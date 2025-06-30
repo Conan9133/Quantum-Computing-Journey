@@ -1,4 +1,4 @@
-This step of a Qiskit workflow involves running your circuits on hardware and producing the quantum computation outputs.
+This step of a Qiskit workflow involves running your circuits on hardware and producing the quantum computation outputs. This is done by using "Primitives" and "Execution modes" modules in Qiskit.
 The Quantum programs/circuits can be executed on a quantum computer using Primitives.
 A primitive is like the smallest processing instruction, the simplest building block from which one can create something useful for a given abstraction level.
 It is optimized for two core tasks in Quantum Algorithm development: Expectation value estimation (Estimator) and circuit sampling (Sampler).
