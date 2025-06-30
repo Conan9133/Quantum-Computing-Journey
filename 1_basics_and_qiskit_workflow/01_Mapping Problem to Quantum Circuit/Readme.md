@@ -6,7 +6,7 @@ This folder contains examples and notes on how to map different types of problem
 
 | File | Description |
 |------|-------------|
-| `00_Types_of_circuits.ipynb` | Introduction to circuits and operators | 
+| `00_Introduction.ipynb` | Introduction to circuits and operators | 
 | `01_Circuits.ipynb` | Introduces circuit creation using basic gates |
 | `02_Operators.ipynb` | Introduces operators module |
 | `03_Measurements.ipynb`  | Demonstrates how to measure qubits in circuits |
