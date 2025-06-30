@@ -1,5 +1,37 @@
 In this section, we provide an introduction to circuits and operators modules in Qiskit for building Quantum circuits.
 
-## Circuits
+## Circuits module
 
-## Operators
+Qiskit has libraries of popular circuits which can be used as building blocks for your programs. Some of the important cirucits are as follows:
+
+1. Standard gates: Circuits were built using standard quantum gates such as UGate, and others are multi-qubit gates that build from single and two qubit gates.
+
+2. N-local Circuits: These circuits uses alternate layers of single-qubit rotation gates with layers of multi-qubit entangling gates.
+
+Uses: Ansatzs in Variational algorithms
+
+3. Data-encoding circuits: These cirucits encode the data onto quantum states for processing by quantum machine learning algorithms. Some of the circuits under this case are 
+  a. Amplitude encoding
+  b. Basis encoding
+  c. Angle encoding
+
+4. Time-evolution circuits: These circuits simulate a quantum state evolving in time. 
+Uses: investigate physical effects such as heat transfer or phase transitions in a system, chemistry problems, QAOA algorithm
+
+5. Benchmarking and complexity-theory circuits: Benchmarking circuits explores a sense of how well our hardware is actually working.
+Complexity-theory circuits helps us understand how difficulty of the problems we want to solve are.
+
+6. Arthimetic Circuits: Arithmetic circuits are the ones that do the arthimetic operations such as adding integers and bit-wise operations.
+Ex: Adder circuits
+
+##Operators Module
+In qiskit, one can also create quantum circuits using operators module. Operators represents a math object: a unitary matrix. Quantum Operators are represented using classes. Some of the important classes are 
+
+1. SparsePauliOp class: 
+It represents a linear combination of Pauli strings.
+
+2. Pauli class:
+Pauli class represents a single Pauli string ({I, X, Y, Z}) with an optional phase coefficient from set { , i, -, -i }.
+
+3. Operator Class:
+Operator class represents a general linear operator.
