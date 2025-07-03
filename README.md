@@ -12,9 +12,13 @@ This is a personal learning repository where I document my progress in quantum c
 
 
 ## Tools
-- Qiskit
+- Qiskit 2.1.0
+- Qiskit Aer 0.17.1
+- Qiskit Algorithms 0.3.1
+- Qiskit IBM Runtime 0.40.1
+- Qiskit Nature 0.7.2
 - Python 3.x
 - JupyterLab
 
 ## 📚 Acknowledgments
-Some notebooks in this repository are inspired by and adapted from the official [Qiskit tutorials](https://qiskit.org/documentation/tutorials/) provided by IBM Quantum under the Apache 2.0 License.
+Some notebooks in this repository are inspired by and adapted from the official Qiskit guides website [https://quantum.cloud.ibm.com/docs/en/guides] provided by IBM Quantum under the Apache 2.0 License.
