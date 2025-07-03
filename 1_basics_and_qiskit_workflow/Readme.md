@@ -25,29 +25,10 @@ Each of these steps has its own dedicated subfolder in this directory.
 
 | Folder                               | Description |
 |--------------------------------------|-------------|
-| `01_problem_to_circuit/`             | Mapping classical problems to quantum logic: building circuits using Qiskit primitives |
-| `02_transpilation_and_optimization/` | Using Qiskit’s transpiler to optimize for specific hardware or reduce circuit depth |
-| `03_debugging_and_validation/`       | Techniques to check, simulate, and verify circuit correctness |
-| `04_execution_backends/`             | Running on Aer simulators or IBMQ backends, and understanding job configs |
-| `05_postprocessing_and_visualization/` | Extracting measurement results, analyzing output, and plotting histograms, Bloch spheres, etc. |
+| `01_Mapping_problem_to_quantum_circuit/`             | Mapping classical problems to quantum logic: building circuits using Qiskit Quantum gates |
+| `02_transpilation/` | Using Qiskit’s transpiler to optimize for specific hardware or reduce circuit depth |
+| `03_debugging_tools_using_Quantum_Simulators/`       | Techniques to check, simulate, and verify circuit correctness |
+| `04_execution_in_Quantum_Computers/`             | Running on Aer simulators or IBMQ backends, and understanding job configs |
+| `05_postprocessresults/` | Extracting measurement results, analyzing output, and plotting histograms, Bloch spheres, etc. |
 
 ---
-
-## 🧠 Learning Goals
-
-- Understand how a real-world quantum problem flows through the Qiskit pipeline
-- Practice modular circuit building and debugging
-- Learn how to optimize and execute programs on quantum backends
-- Build skills in interpreting and visualizing quantum data
-
----
-
-## 🛠️ Requirements
-
-You can install Qiskit and JupyterLab via:
-
-```bash
-conda create -n qc python=3.10 qiskit jupyterlab
-conda activate qc
-jupyter lab
-
