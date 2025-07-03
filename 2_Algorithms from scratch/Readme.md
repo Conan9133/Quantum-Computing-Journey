@@ -17,7 +17,7 @@ Each subfolder includes:
 | ✅ Quantum Fourier Transform (QFT) | Manual implementation of QFT and its inverse using Hadamards and controlled rotations |
 | ✅ Quantum Phase Estimation (QPE) | Estimate eigenphases by constructing controlled unitary circuits from scratch |
 | ✅ HHL Algorithm | Quantum linear systems solver — to be built from basic gates |
-| ✅ Quantum Adders | Circuit-based binary adders using quantum logic |
+| ✅ Quantum Adders (coming soon) | Circuit-based binary adders using quantum logic |
 | ✅ VQE (coming soon) | Variational Quantum Eigensolver  |
 | ✅ VQLS (Coming soon) | Variational Quantum Linear Solver — variational approach from scratch |
 
