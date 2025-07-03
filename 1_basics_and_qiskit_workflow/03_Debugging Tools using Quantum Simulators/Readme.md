@@ -41,9 +41,8 @@ To test and debug the Quantum programs:
 
    These circuits consist only of the following circuits: CX, H, S, and measurement.
 
-The above information is adopted from the Qiskit Guides page. For more information, please see the [..........]
+The above information is adopted from the Qiskit Guides page. For more information, please see link [https://quantum.cloud.ibm.com/docs/en/guides/debugging-tools].
 
-Add a file that has example of those.
 
 
 
