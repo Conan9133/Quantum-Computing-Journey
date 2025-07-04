@@ -1,6 +1,6 @@
 # 📦 Algorithms Using Qiskit Libraries
 
-This section will include implementations of major quantum algorithms using **Qiskit’s high-level libraries and modules**, such as `qiskit.circuit.library` and `qiskit.algorithms`.
+This section will include implementations of major quantum algorithms using **Qiskit’s high-level libraries and modules**, such as `qiskit.algorithms`, `qiskit-nature`, `qiskit-dynamics` and  `qiskit.algorithms`.
 
 ## 🧠 Goal
 
